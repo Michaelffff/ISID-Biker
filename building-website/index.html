@@ -1,0 +1,175 @@
+<!doctype html>
+<htlml , dir lang="nl""ltr">
+
+<!-- Ben Kuiper-->
+<!-- Ben Kuiper-->
+<!-- Ben Kuiper-->
+
+<head>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Biker - kies uw materiaal</title>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img alt="logo"
+                 src="images/BikerLogo.jpg" style="width: 120px"/>
+        </a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarResponsive" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Huurmateriaal
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="src/klantgegevens.html">Klantgegevens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="src/verzekering.html">Verzekeren</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="src/betaling.html">Afrekenen</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="margin-left: 10%">
+    <ul style="list-style-type:none; width:30%; float:left;">
+        <div class="titel">
+            <h2> Selecteer fiets</h2>
+        </div>
+        <div class="box">
+            <li>
+                <figure>
+                    <img alt="herenfiets" src="https://media.s-bol.com/Yo8Vmyrx22K/1200x808.jpg" width="200">
+                    <figcaption>
+                        Herenfiets
+                    </figcaption>
+                </figure>
+                <form action="/action_page.php">
+                    <label for="quantity">Aantal:</label>
+                    <input id="quantity1" max="99" min="0" name="quantity" type="number">
+
+                </form>
+            </li>
+            <br>
+            <li>
+                <figure>
+                    <img alt="damesfiets" src="https://cdn1.crossretail.nl/1000x1000/giant/72180725.jpg" width="200">
+                    <figcaption>
+                        Damesfiets
+                    </figcaption>
+                </figure>
+                <form action="/action_page.php">
+                    <label for="quantity">Aantal:</label>
+                    <input id="quantity1" max="99" min="0" name="quantity" type="number">
+
+                </form>
+            </li>
+            <br>
+            <li>
+                <figure>
+                    <img alt="Electrische damesfiets" src="https://media.s-bol.com/qYlMKoNvDp47/1200x812.jpg"
+                         width="200">
+                    <figcaption>
+                        Electrische damesfiets
+                    </figcaption>
+                </figure>
+                <form action="/action_page.php">
+                    <label for="quantity">Aantal:</label>
+                    <input id="quantity1" max="99" min="0" name="quantity" type="number">
+                </form>
+            </li>
+            <br>
+            <li>
+                <figure>
+                    <img alt="Electrische herenfiets" src="https://media.s-bol.com/xv2pjm9y9GPq/1200x777.jpg"
+                         width="200">
+                    <figcaption>
+                        Electrische herenfiets
+                    </figcaption>
+                </figure>
+                <form action="/action_page.php">
+                    <label for="quantity">Aantal:</label>
+                    <input id="quantity1" max="99" min="0" name="quantity" type="number">
+                </form>
+            </li>
+            <br>
+    </ul>
+</div>
+
+<ul style="list-style-type:none; width:30%; float:left;">
+    <div class="titel">
+        <h2>Selecteer accesoires</h2>
+    </div>
+    <div class="box">
+        <li>
+            <figure>
+                <img alt="helm"
+                     src="https://stip-kinderfietsen.nl/wp-content/uploads/2017/12/Hale-Mat-Bright-Pink-1.png"
+                     width="200">
+                <figcaption>
+                    Helm
+                </figcaption>
+            </figure>
+            <form action="/action_page.php">
+                <label for="quantity">Aantal:</label>
+                <input id="quantity1" max="99" min="0" name="quantity" type="number">
+            </form>
+        </li>
+        <br>
+        <li>
+            <figure>
+                <img alt="kinderzitje" src="https://media.s-bol.com/gBQg2KGG3yG/821x1200.jpg" width="150">
+                <figcaption>
+                    Kinderzitje
+                </figcaption>
+            </figure>
+            <form action="/action_page.php">
+                <label for="quantity">Aantal:</label>
+                <input id="quantity1" max="99" min="0" name="quantity" type="number">
+            </form>
+            <br>
+</ul>
+</div>
+<ul style="width:20%; float:left;">
+    <div class="titel">
+        <h2>Geselecteerd</h2>
+    </div>
+    <div class="box">
+        <form action="/action_page.php">
+            <label for="quantity">Huurtermijn in dagen:</label>
+            <input id="quantity1" max="99" min="0" name="quantity" type="number">
+    </div>
+
+    <div style="margin-top:12px;">
+        <a class="btn btn-primary" href="src/klantgegevens.html" style="float: left;" type="submit">Ga verder</a>
+    </div>
+</ul>
+</div>
+
+
+<footer class="col-md-12 my-5 pt-5 text-center text-small"
+        style="padding:8px !important; margin-bottom: 0 !important; bottom:0; background-color: #343A40; position: fixed;">
+    <p class="mb-1" style="color: white">&copy; 2020-2021 Biker fietsverhuur</p>
+    <p class="mb-1" style="color: white">door Ben Kuiper</p>
+</footer>
+</body>
+
+</html>
+ 

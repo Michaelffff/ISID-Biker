@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa !important;
+}
+
+.btn-primary {
+    background: #FF9900 !important;
+    border-color: #FF9900;
+    color: black;
+}
+
+.box {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.btn-secondary {
+    color: white;
+    background: #536066;
+}
+
+.titel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    background: #ff9e1b;
+    border: 1px solid black;
+}
+
+.bg-dark {
+    background: #536066 !important;
+}
+
+footer {
+    background: #536066 !important;
+}
